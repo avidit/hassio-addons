@@ -31,8 +31,8 @@
   "schema": {
     "mqtt_host": "str",
     "mqtt_port": "int",
-    "mqtt_username": "str",
-    "mqtt_password": "str",
+    "mqtt_user": "str",
+    "mqtt_pass": "str",
     "msg_types": "str",
     "meter_ids": "str"
   }

@@ -8,7 +8,7 @@ using rtl-sdr and rtlamr and send to homeassistant via MQTT
 The installation of this add-on is straightforward and easy to do.
 
 1. Navigate in your Home Assistant frontend to **Hass.io** -> **Add-on Store**.
-2. Add the Hass.io add-on repository https://github.com/avidit/hassio-addons/.
+2. Add the Hass.io add-on repository `https://github.com/avidit/hassio-addons`.
 3. Install the "rtlamr to MQTT" add-on.
 
 ## Configuration
