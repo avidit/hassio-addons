@@ -2,7 +2,7 @@
   "name": "rtlamr to MQTT",
   "version": "0.1",
   "slug": "rtlamr2mqtt",
-  "description": "Read utility meters using rtl-sdr and rtlamr and send to homeassistant via MQTT",
+  "description": "Read utility meters using rtl-sdr and rtlamr and send via MQTT",
   "arch": [
     "aarch64",
     "amd64",

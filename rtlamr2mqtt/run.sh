@@ -40,6 +40,6 @@ while true; do
     done
     bashio::log.info "Stopping rtl_tcp..."
     pkill rtl_tcp
-    bashio::log.info "Next scan in $(date -d '1 hour' "+%H:%M %p")..."
+    bashio::log.info "Next scan in $(date -d "@$(( $(date +%s) + 3600 ))" "+%I:%M %p")..."
     sleep 1h
 done
