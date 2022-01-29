@@ -1,6 +1,6 @@
 {
   "name": "rtlamr to MQTT",
-  "version": "0.2",
+  "version": "0.3",
   "slug": "rtlamr2mqtt",
   "description": "Read utility meters using rtl-sdr and rtlamr and send via MQTT",
   "arch": [
@@ -24,7 +24,8 @@
     "mqtt_user": "mosquitto",
     "mqtt_pass": "mosquitto",
     "msg_types": "scm",
-    "meter_ids": "1234"
+    "meter_ids": "1234",
+    "sleep": "30m"
   },
   "schema": {
     "mqtt_host": "str",
@@ -32,6 +33,7 @@
     "mqtt_user": "str",
     "mqtt_pass": "str",
     "msg_types": "str",
-    "meter_ids": "str"
+    "meter_ids": "str",
+    "sleep": "str"
   }
 }
