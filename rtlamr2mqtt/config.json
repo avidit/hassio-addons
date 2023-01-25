@@ -1,6 +1,6 @@
 {
   "name": "rtlamr to MQTT",
-  "version": "0.3",
+  "version": "0.4",
   "slug": "rtlamr2mqtt",
   "description": "Read utility meters using rtl-sdr and rtlamr and send via MQTT",
   "arch": [
@@ -12,6 +12,7 @@
   "url": "https://github.com/avidit/hassio-addons",
   "startup": "application",
   "boot": "auto",
+  "init": false,
   "host_network": false,
   "map": [
     "config:rw",

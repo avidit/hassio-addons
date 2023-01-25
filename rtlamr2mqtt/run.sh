@@ -10,7 +10,7 @@ SLEEP="$(bashio::config 'sleep')"
 
 bashio::log.info "Starting rtlamr2mqtt..."
 bashio::log.info "Meter IDs: $METER_IDS"
-bashio::log.info "Message Type: $MSG_TYPES"
+bashio::log.info "Message Types: $MSG_TYPES"
 bashio::log.info "MQTT host: $MQTT_HOST"
 bashio::log.info "MQTT port: $MQTT_PORT"
 bashio::log.info "MQTT username: $MQTT_USER"

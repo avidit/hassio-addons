@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4
+
+- Add `init: false` in config
+
 ## 0.3
 
 - Make sleep option configurable

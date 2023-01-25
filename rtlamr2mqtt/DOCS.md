@@ -22,6 +22,7 @@ mqtt_user: "mosquitto",
 mqtt_pass: "mosquitto",
 msg_types: "scm,r900",
 meter_ids: "1234,5678"
+sleep: 1h
 ```
 
 ## More info
