@@ -14,7 +14,7 @@ RUN apk add --no-cache --virtual build-deps alpine-sdk cmake git go libc-dev lib
     make install; \
     mkdir -vp /tmp/go; \
     export GOPATH=/tmp/go; \
-    go get -v github.com/bemasher/rtlamr; \
+    go install -v github.com/bemasher/rtlamr@latest; \
     cp /tmp/go/bin/* /usr/local/bin/; \
     apk del build-deps; \
     rm -rf /tmp/src /tmp/go /usr/lib/go; \

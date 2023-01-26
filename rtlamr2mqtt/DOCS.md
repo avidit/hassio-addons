@@ -1,7 +1,7 @@
 # About
 
-The rtlamr2mqtt add-on allows you read utility meters
-using rtl-sdr and rtlamr and send to homeassistant via MQTT
+The rtlamr2mqtt add-on allows you to read utility meters
+using rtl-sdr and rtlamr and send the readings to homeassistant via MQTT
 
 ## Installation
 
@@ -16,11 +16,11 @@ The installation of this add-on is straightforward and easy to do.
 Example add-on configuration:
 
 ```yaml
-mqtt_host: "core-mosquitto",
-mqtt_port: 1883,
-mqtt_user: "mosquitto",
-mqtt_pass: "mosquitto",
-msg_types: "scm,r900",
+mqtt_host: "core-mosquitto"
+mqtt_port: 1883
+mqtt_user: "mosquitto"
+mqtt_pass: "mosquitto"
+msg_types: "scm,r900"
 meter_ids: "1234,5678"
 sleep: 1h
 ```

@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5
+
+- Update go
+
 ## 0.4
 
 - Add `init: false` in config
